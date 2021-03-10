@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">voting_app</string>
+    <string name="name_info">Name:</string>
+    <string name="id_info">ID:</string>
+    <string-array name="candidates_list">
+        <item>Choose one candidate!</item>
+        <item>Candidate 1</item>
+        <item>Candidate 2</item>
+        <item>Candidate 3</item>
+    </string-array>
+    <string name="vote_please">Please vote: </string>
+
+    <string name="Enter_name">Enter your name: </string>
+    <string name="Enter_id">Enter your ID: </string>
+    <string name="candidates">Choose one Candidate!</string>
+    <string name="c1_result">0</string>
+    <string name="c2_result">0</string>
+    <string name="c3_result">0</string>
+    <string name="result_show">Results:</string>
+    <string name="a">Candidate 1</string>
+    <string name="see_results">See Results</string>
+    <string name="spinner_value">selected candidate.</string>
+    <string name="back">Back</string>
+    <string name="please_vote">PLEASE VOTE</string>
+
+</resources>
