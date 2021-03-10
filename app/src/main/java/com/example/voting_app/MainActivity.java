@@ -16,7 +16,6 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 
 import static com.example.voting_app.R.*;
 
@@ -89,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
     public void Result(View view) {
 
         // we are going to go to the next activity!
-        Intent intent =new Intent(this,Activity2.class);
+        Intent intent =new Intent(this, activity2.class);
         intent.putExtra("result", tp.getText().toString());
         startActivity(intent);
 
